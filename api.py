@@ -23,7 +23,7 @@ def home():
     return "<h1>My First Deployed Application</h1><p>This is my first deployed application</p>"
 
 # A route to return all of the available entries in our catalog.
-@app.route('//api/v1/salomayri/resources/spring//all', methods=['GET'])
+@app.route('/api/v1/salomayri/resources/spring/all', methods=['GET'])
 @cross_origin()
 def api_all():
     return jsonify(classes_db)
