@@ -46,7 +46,7 @@ def prof_call():
     # Python dictionaries to the JSON format.
     return jsonify(result)
 
-@app.route('//api/v1/salomayri/resources/spring//credit', methods=['GET'])
+@app.route('/api/v1/salomayri/resources/spring/credit', methods=['GET'])
 @cross_origin()
 def cred_call():
     # Check if an ID was provided as part of the URL.
@@ -64,7 +64,7 @@ def cred_call():
     # Python dictionaries to the JSON format.
     return jsonify(result)
 
-@app.route('//api/v1/salomayri/resources/spring//days', methods=['GET'])
+@app.route('/api/v1/salomayri/resources/spring/days', methods=['GET'])
 @cross_origin()
 def days_call():
     # Check if an ID was provided as part of the URL.
@@ -83,7 +83,7 @@ def days_call():
     return jsonify(result)
 
 
-@app.route('//api/v1/salomayri/resources/spring//room', methods=['GET'])
+@app.route('/api/v1/salomayri/resources/spring/room', methods=['GET'])
 @cross_origin()
 def room_call():
     # Check if an ID was provided as part of the URL.
@@ -101,7 +101,7 @@ def room_call():
     # Python dictionaries to the JSON format.
     return jsonify(result)
 
-@app.route('//api/v1/salomayri/resources/spring//time', methods=['GET'])
+@app.route('/api/v1/salomayri/resources/spring/time', methods=['GET'])
 @cross_origin()
 def time_call():
     # Check if an ID was provided as part of the URL.
